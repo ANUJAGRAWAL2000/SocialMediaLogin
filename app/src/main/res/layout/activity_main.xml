@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvSocialMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:fontFamily="@font/source_serif_pro"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="@string/SocialMediaLogin"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivSocialMedia"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/ic_social_media_marketing_1" />
+
+        <LinearLayout
+            android:id="@+id/llHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="250dp"
+                android:layout_height="0.2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/source_serif_pro"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/Login"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="250dp"
+                android:layout_height="0.2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBoth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/llGoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/ivGoogle"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:padding="25dp"
+                    android:paddingStart="15dp"
+                    android:paddingLeft="15dp"
+                    app:srcCompat="@drawable/ic_google" />
+
+                <TextView
+                    android:id="@+id/tvGoogle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/source_serif_pro"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/Google"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:paddingStart="20dp">
+
+                <ImageView
+                    android:id="@+id/ivFacebook"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:padding="25dp"
+                    app:srcCompat="@drawable/ic_facebook" />
+
+                <TextView
+                    android:id="@+id/tvFacebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/source_serif_pro"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/Facebook"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/google_bt"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="588dp"-->
+<!--        android:text="Google"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/facebook_bt"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="476dp"-->
+<!--        android:text="Facebook"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+    <FrameLayout
+        android:id="@+id/llSocialMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_button_logout"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/source_serif_pro"
+            android:padding="15dp"
+            android:text="@string/Social_Media"
+            android:textColor="@color/white"
+            android:textSize="18sp">
+
+        </TextView>
+        <!--        <Button-->
+        <!--            android:id="@+id/btSocialSignIn"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:background="@drawable/custom_button_logout"-->
+        <!--            android:fontFamily="sans-serif-black"-->
+        <!--            android:text="@string/Social_Media"-->
+        <!--            android:textSize="14sp" />-->
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

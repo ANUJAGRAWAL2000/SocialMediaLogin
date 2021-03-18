@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "135750906913",
+    "firebase_url": "https://rockgame-df702.firebaseio.com",
+    "project_id": "rockgame-df702",
+    "storage_bucket": "rockgame-df702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135750906913:android:88820b2a4004f23ca31f60",
+        "android_client_info": {
+          "package_name": "com.example.firefileupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135750906913-kv3t4ssd1ltsv479t42smb8u44gs0k2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firefileupload",
+            "certificate_hash": "c3664a7796d26614ce692652a92661480d2b3a5c"
+          }
+        },
+        {
+          "client_id": "135750906913-l72deah9r90iohftms5u51quuba5b353.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU00fwspGnXiaEmnMnFURZxocqJjK8nrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135750906913-l72deah9r90iohftms5u51quuba5b353.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135750906913:android:01448357719a68aca31f60",
+        "android_client_info": {
+          "package_name": "com.example.grip_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135750906913-k1ucb8toq961uilfbu9h0u20tak06asd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grip_task",
+            "certificate_hash": "ee4241d8d0371c9543edf4d325b43900d17d5496"
+          }
+        },
+        {
+          "client_id": "135750906913-l72deah9r90iohftms5u51quuba5b353.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU00fwspGnXiaEmnMnFURZxocqJjK8nrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135750906913-l72deah9r90iohftms5u51quuba5b353.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135750906913:android:d4b58f7d7571f0a6a31f60",
+        "android_client_info": {
+          "package_name": "com.example.rockpapergame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135750906913-oh07v3s19qno5a33vggf9fagkeo7dlsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rockpapergame",
+            "certificate_hash": "c3664a7796d26614ce692652a92661480d2b3a5c"
+          }
+        },
+        {
+          "client_id": "135750906913-l72deah9r90iohftms5u51quuba5b353.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU00fwspGnXiaEmnMnFURZxocqJjK8nrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135750906913-l72deah9r90iohftms5u51quuba5b353.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GRIP_TASK</string>
+    <string name="facebook_app_id">756946605222771</string>
+    <string name="fb_login_protocol_scheme">fb756946605222771</string>
+    <string name="Google">Google</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Social_Media">Social Media Quick Sign-In</string>
+    <string name="Login">SIGN IN WITH</string>
+    <string name="Profile">PROFILE</string>
+    <string name="Logout">Logout</string>
+    <string name="SocialMediaLogin">SOCIAL MEDIA LOGIN</string>
+    <string name="UserName">UserName</string>
+    <string name="Gender">Gender</string>
+    <string name="DateOfBirth">Date Of Birth</string>
+    <string name="EmailAddress">Email Address</string>
+    <string name="ProfileLink">Profile Link</string>
+</resources>
